@@ -28,7 +28,7 @@ Then select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
-You should see a page with three brown doors:
+You should see a page with three brown doors. If you don't see the doors, try refreshing the page.
 
 <img src="https://s3.amazonaws.com/after-school-assets/doors.png">
 
