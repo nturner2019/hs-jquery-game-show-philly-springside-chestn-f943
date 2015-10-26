@@ -2,7 +2,7 @@
 
 <img src="https://s3.amazonaws.com/after-school-assets/giphy_360.png.gif" align="right" width="300px" hspace="10">
 
-Congratulations, you've been selected to be a contestant on **jQuery Game Show**!!!!! The rules are pretty straight forward. All you have to do to win is write some jQuery selectors.
+Congratulations, you've been selected to be a contestant on **jQuery Game Show**!!!!! The rules are pretty straightforward. All you have to do to win is write some jQuery selectors.
 
 ##Let's Get Started
 
@@ -28,13 +28,15 @@ Then select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
-You should see a page with three brown doors:
+You should see a page with three brown doors. If you see anything else, try refreshing the page!
 
 <img src="https://s3.amazonaws.com/after-school-assets/doors.png">
 
 ### Step 4:
 
-Open up both `index.html` and `js/gameshow.js` in the Nitrous text editor. Your job is to fill in the jQuery selectors that make the doors turn around. If you get the selectors wrong, you won't get your prize! The selector for each door as to be filled in three separate times. Look for the comments in `js/gameshow.js` to figure out where to put the comments.
+Open up both `index.html` and `js/gameshow.js` in the Nitrous text editor. Your job is to fill in the jQuery selectors that make the doors turn around. If you get the selectors wrong, you won't get your prize! The selector for each door as to be filled in three separate times. Look for the comments in `js/gameshow.js` to figure out where to put the selectors. You will be coding your solutoin in `js/gameshow.js`. You shouldn't have to change any of the code in `index.html`!
+
+Remember to click on the door to see what's behind it!
 
 One last thing, the HTML for every door looks something like this:
 
@@ -49,6 +51,8 @@ One last thing, the HTML for every door looks something like this:
 ```
 
 The parent div for each door that contains `class="perspective"` is the main div for the door. Make sure your jQuery selectors select that div for each door, otherwise you won't get your prize!
+
+Need a hint? Check out the `index.html` and `ball.js` files from the previous lesson for some examples.
 
 
 

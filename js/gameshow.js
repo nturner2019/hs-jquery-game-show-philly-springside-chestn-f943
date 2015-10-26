@@ -13,7 +13,7 @@ $(document).ready(function(){
         $("div.perspective").addClass("done");
     });
 
-    //door one: You have to place your jQuery Selector in THREE places
+    //door two: You have to place your jQuery Selector in THREE places
     //wherever you see `__`
     //You always want to be using a selector on the div with the class "perspective"
 
@@ -27,7 +27,7 @@ $(document).ready(function(){
         $("div.perspective").addClass("done")
     });
 
-    //door one: You have to place your jQuery Selector in THREE places
+    //door three: You have to place your jQuery Selector in THREE places
     //wherever you see `__`
     //You always want to be using a selector on the div with the class "perspective"
 
