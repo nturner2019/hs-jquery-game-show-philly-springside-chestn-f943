@@ -11,9 +11,10 @@ $(document).ready(function(){
         //insert selector below:
         $("__").flip(true);
         $("div.perspective").addClass("done");
+        checkWin();
     });
 
-    //door one: You have to place your jQuery Selector in THREE places
+    //door two: You have to place your jQuery Selector in THREE places
     //wherever you see `__`
     //You always want to be using a selector on the div with the class "perspective"
 
@@ -25,9 +26,10 @@ $(document).ready(function(){
         //insert selector below:
         $("__").flip(true);
         $("div.perspective").addClass("done")
+        checkWin();
     });
 
-    //door one: You have to place your jQuery Selector in THREE places
+    //door three: You have to place your jQuery Selector in THREE places
     //wherever you see `__`
     //You always want to be using a selector on the div with the class "perspective"
 
@@ -38,17 +40,16 @@ $(document).ready(function(){
     $("__").click(function(){
         //insert selector below:
         $("__").flip(true);
-        $("div.perspective").addClass("done")
+        $("div.perspective").addClass("done");
+        checkWin();
     });
-
+ 
     // IGNORE THIS:
-    // function youWon(){
-    //     if ($("div.perspective").hasClass("done")){
-    //     alert("YOU WON!!!");
-    //     }
-    // }
-
-    // youWon();
+    function checkWin() {
+      if ($("div.perspective.done").length === $("div.perspective").length) {
+        alert("YOU WON!!!");
+      }
+    }
 
 
 });
